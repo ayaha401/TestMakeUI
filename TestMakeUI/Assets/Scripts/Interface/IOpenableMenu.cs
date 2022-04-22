@@ -1,0 +1,4 @@
+interface IOpenableMenu
+{
+    void ShowUI();
+}

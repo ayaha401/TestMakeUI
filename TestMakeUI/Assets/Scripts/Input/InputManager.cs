@@ -4,6 +4,16 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
+    public bool TabLeftMove()
+    {
+        return Input.GetKeyDown(KeyCode.Q);
+    }
+
+    public bool TabRightMove()
+    {
+        return Input.GetKeyDown(KeyCode.E);
+    }
+
     public bool LeftDown()
     {
         return Input.GetKeyDown(KeyCode.A);
